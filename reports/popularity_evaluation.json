@@ -1,0 +1,104 @@
+{
+  "dataset_total": 121,
+  "train_samples": 96,
+  "test_samples": 25,
+  "models": {
+    "random_forest": {
+      "model_name": "Random Forest (Main)",
+      "mae": 880340.55,
+      "rmse": 1073299.44,
+      "r2_score": 0.3236,
+      "sample_actual": [
+        3200000.0,
+        4300000.0,
+        2950000.0,
+        7900000.0,
+        2100000.0
+      ],
+      "sample_predicted": [
+        4153524.0,
+        4160613.0,
+        3863243.0,
+        9655970.0,
+        4098840.0
+      ]
+    },
+    "gradient_boosting": {
+      "model_name": "Gradient Boosting",
+      "mae": 939044.89,
+      "rmse": 1146091.82,
+      "r2_score": 0.2287,
+      "sample_actual": [
+        3200000.0,
+        4300000.0,
+        2950000.0,
+        7900000.0,
+        2100000.0
+      ],
+      "sample_predicted": [
+        4286910.0,
+        3596892.0,
+        4170749.0,
+        10057625.0,
+        4867952.0
+      ]
+    },
+    "linear_regression": {
+      "model_name": "Linear Regression",
+      "mae": 977635.12,
+      "rmse": 1219165.4,
+      "r2_score": 0.1273,
+      "sample_actual": [
+        3200000.0,
+        4300000.0,
+        2950000.0,
+        7900000.0,
+        2100000.0
+      ],
+      "sample_predicted": [
+        4429352.0,
+        4079358.0,
+        3598595.0,
+        8002095.0,
+        4417769.0
+      ]
+    },
+    "baseline_median": {
+      "model_name": "Baseline (Median)",
+      "mae": 986578.8,
+      "rmse": 1310089.67,
+      "r2_score": -0.0078,
+      "sample_actual": [
+        3200000.0,
+        4300000.0,
+        2950000.0,
+        7900000.0,
+        2100000.0
+      ],
+      "sample_predicted": [
+        3967597.0,
+        3967597.0,
+        3967597.0,
+        3967597.0,
+        3967597.0
+      ]
+    }
+  },
+  "feature_importance": {
+    "title_length": 0.0409,
+    "title_word_count": 0.0311,
+    "duration_seconds": 0.4681,
+    "publish_hour": 0.0579,
+    "publish_day_idx": 0.0526,
+    "is_weekend": 0.0066,
+    "caps_word_ratio": 0.045,
+    "has_exclamation": 0.0254,
+    "video_age_days": 0.1022,
+    "topic_label_Adventure & Story Games": 0.0051,
+    "topic_label_Horror Games": 0.0115,
+    "topic_label_Mobile & Multiplayer Games": 0.0169,
+    "topic_label_Simulator & Casual Games": 0.0103,
+    "topic_label_Special, Charity & Reaction": 0.1264
+  },
+  "beats_baseline": true
+}

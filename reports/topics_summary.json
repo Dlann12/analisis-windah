@@ -1,0 +1,77 @@
+{
+  "0": {
+    "cluster_id": 0,
+    "category_name": "Simulator & Casual Games",
+    "video_count": 27,
+    "top_keywords": [
+      "simulator",
+      "dengan",
+      "bersama",
+      "teman",
+      "jalan",
+      "mobil",
+      "bareng",
+      "kambing"
+    ]
+  },
+  "1": {
+    "cluster_id": 1,
+    "category_name": "Adventure & Story Games",
+    "video_count": 48,
+    "top_keywords": [
+      "bersama",
+      "kota",
+      "melawan",
+      "mencari",
+      "of",
+      "penuh",
+      "pedang",
+      "kembali"
+    ]
+  },
+  "2": {
+    "cluster_id": 2,
+    "category_name": "Horror Games",
+    "video_count": 23,
+    "top_keywords": [
+      "indonesia",
+      "bersama",
+      "rumah",
+      "membangun",
+      "bertahan hidup",
+      "hidup",
+      "bertahan",
+      "pesawat"
+    ]
+  },
+  "3": {
+    "cluster_id": 3,
+    "category_name": "Special, Charity & Reaction",
+    "video_count": 14,
+    "top_keywords": [
+      "tahun",
+      "bersama",
+      "live",
+      "stream",
+      "streaming",
+      "kita",
+      "10",
+      "momen"
+    ]
+  },
+  "4": {
+    "cluster_id": 4,
+    "category_name": "Mobile & Multiplayer Games",
+    "video_count": 9,
+    "top_keywords": [
+      "horror",
+      "the",
+      "shop",
+      "art",
+      "art the",
+      "chilla art",
+      "chilla",
+      "karaoke"
+    ]
+  }
+}
